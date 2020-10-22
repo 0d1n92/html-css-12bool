@@ -1,0 +1,30 @@
+body {
+  max-height: 800px;
+  min-height: 800px;
+}
+
+.netsted {
+  padding: 5px;
+}
+
+div.nested > [class*="col-"] {
+  background-color: darkred;
+  border: 1px solid black;
+}
+/* div.nested > [class*="col-"] {
+  margin-left: 2px;
+} */
+div.nested > [class*="col-"] :first-child {
+  margin: 0;
+}
+
+[class*="col-"] {
+  text-align: center;
+
+}
+
+[class*="col-"] p {
+  vertical-align: middle;
+  line-height: 100px;
+
+}

@@ -6,7 +6,6 @@
 }
 
 .debug .conteiner{
-  background-color: crimson;
   border: 1px solid blue;
   height: 100%;
   min-height: 100px;
@@ -18,7 +17,8 @@
  }
 
  .debug [class*="col-"] {
-   background-color: darkgreen;
+   background-color: pink;
+   border: 1px solid cyan;
    min-height: 100px;
  }
 
