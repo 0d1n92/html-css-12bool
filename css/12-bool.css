@@ -7,7 +7,6 @@
 
 .debug .conteiner{
   border: 1px solid blue;
-  height: 100%;
   min-height: 100px;
 }
 
