@@ -6,20 +6,22 @@ height: 1000px;
 .nested {
   padding: 5px;
 }
-
+.conteiner {
+  height: 200px;
+}
 div.nested > [class*="col-"] {
   background-color: darkgreen;
   border: 1px solid pink;
 }
 
 [class*="col-"] {
-  text-align: center;
   width: 200px;
-
+  position: relative;
 }
 
-[class*="col-"] p {
-  vertical-align: middle;
-  line-height: 200px;
-
+[class*="col-"] > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
